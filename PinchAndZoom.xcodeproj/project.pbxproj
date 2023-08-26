@@ -61,14 +61,13 @@
 		643D22452A916A2B002D16AD /* PinchAndZoom */ = {
 			isa = PBXGroup;
 			children = (
+				646B458A2A9A4D14009FF31C /* UIComponents */,
+				646B45892A9A4CF4009FF31C /* View */,
 				64E4147A2A995FE5007EDCFD /* Data */,
 				643D22462A916A2B002D16AD /* PinchAndZoomApp.swift */,
-				643D22482A916A2B002D16AD /* ContentView.swift */,
 				643D224A2A916A2C002D16AD /* Assets.xcassets */,
 				643D224C2A916A2C002D16AD /* Preview Content */,
 				643D22542A916E93002D16AD /* DrawingConstants.swift */,
-				643D22562A918561002D16AD /* InfoLayout.swift */,
-				643A5CC32A96CB7900D7DF1A /* ZoomButton.swift */,
 			);
 			path = PinchAndZoom;
 			sourceTree = "<group>";
@@ -79,6 +78,23 @@
 				643D224D2A916A2C002D16AD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		646B45892A9A4CF4009FF31C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				643D22482A916A2B002D16AD /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		646B458A2A9A4D14009FF31C /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				643A5CC32A96CB7900D7DF1A /* ZoomButton.swift */,
+				643D22562A918561002D16AD /* InfoLayout.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 		64E4147A2A995FE5007EDCFD /* Data */ = {
